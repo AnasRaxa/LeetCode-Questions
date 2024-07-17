@@ -1,0 +1,2 @@
+in tail recursion we have no operation to perform after function call so when we will hit base condition value will directly return to main function instead of passing back to its parents 
+so in tail rectursion all the processing done before function call so compiler will remove call frame from stack after calling next function and when base condition hit then there is no parent functions because they have removed by compiler so value will return to directly main function
